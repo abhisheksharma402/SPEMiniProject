@@ -1,9 +1,10 @@
 pipeline{
-    agent { label 'AGENT' }
+    agent any
 
     tools{
-        maven 'maven_3_9_6'
+        Maven 'maven_3_9_6'
     }
+    
     stages{
         stage('Build Maven'){
             steps{
