@@ -7,7 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpeMiniProjectApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpeMiniProjectApplication.class, args);
+//        SpringApplication.run(SpeMiniProjectApplication.class, args);
+
+        System.out.println("hello");
+
     }
 
 }
