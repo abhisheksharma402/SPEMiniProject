@@ -8,6 +8,11 @@ pipeline{
                 sh 'mvn clean install'
             }
         }
+        stage('Build Docker Image'){
+            steps{
+                sh "docker build -t helloworld:1" 
+            }
+        }
     }
 
 
